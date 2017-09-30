@@ -92,8 +92,8 @@ function paidpage() {
 }
 
 function paidmember() {
-  return !0;
   var e = document.getElementById("paid_member");
+  return !0;
   return null != e
     ? !0
     : !1

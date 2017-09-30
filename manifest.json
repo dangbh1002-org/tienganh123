@@ -13,6 +13,9 @@
     "webRequestBlocking",
     "cookies",
     "history",
+    "cookies",
+    "tabs",
+    "browsingData",
     "*://*/*"
   ],
   "content_security_policy": "script-src 'self' https://cdn.firebase.com https://*.firebaseio.com; object-src 'self'",
@@ -21,7 +24,8 @@
     "scripts": ["sounds/active.mp3", "sounds/fire.mp3"]
   },
   "web_accessible_resources": [
-     "function.js",
-     "function_final.js"
+     "sources/function.js",
+     "sources/function_final.js",
+     "sources/libs_async.js"
   ]
 }
